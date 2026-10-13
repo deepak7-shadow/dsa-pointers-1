@@ -16,10 +16,10 @@ int main()
     cout << "Pointer value: " << *pointer << endl;
 
     *pointer = 20;
-    cout << "Changed value: " << number << endl;
+    cout << "The Changed value is: " << number << endl;
 
     doubleValue(pointer);
-    cout << "Doubled value: " << number << endl;
+    cout << "The Doubled value is: " << number << endl;
 
     return 0;
 }
